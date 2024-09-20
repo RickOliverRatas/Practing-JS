@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function calcularPerimetro(altura, largura){
+            let resultadoPerimetro = 2 *(largura + altura);
+            return resultadoPerimetro;
+        }
+        function calcularArea(altura, largura){
+            let resultadoArea = altura * largura;
+            return resultadoArea;
+        }
+        let resultadoA = calcularArea(5, 10);
+        let resultadoP = calcularPerimetro(20, 30);
+        alert(`a area é ${resultadoA} eo perimetro é ${resultadoP}`);
+        </script>
+</body>
+</html>
